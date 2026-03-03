@@ -1,8 +1,11 @@
+//Name: Ivy Loi
+// Assignment: HW 1
+// Problem: 2D
+// Date: 3/2/26
 //Pseudocode for 2D
 
 #include <iostream>
 #include <string>
-
 bool identicalString(std::string stringA, std::string B) {
     if stringA != stringB:
         print out "The strings don't match";

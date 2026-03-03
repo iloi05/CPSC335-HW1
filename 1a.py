@@ -1,3 +1,8 @@
+# Name: Ivy Loi
+# Assignment: HW 1
+# Problem: 1a
+# Date: 3/2/26
+# Get the sum of a list of numbers
 def sum_list(numbers):
     total = 0
     for i in numbers:

@@ -1,3 +1,7 @@
+// Name: Ivy Loi
+// Assignment: HW 1
+// Problem: 2b
+// Date: 3/2/26
 // Pseudocode for 2b
 
 #include <iostream>

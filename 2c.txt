@@ -1,7 +1,10 @@
+// Name: Ivy Loi
+// Assignment: HW 1
+// Problem 2c
+// 3/2/26
+
 //Pseudocode for 2c
-
 #include <iostream>
-
 identicalElements(std::list<int>elementList) {
     for every element in elementList:
         int current = 0;
@@ -9,7 +12,7 @@ identicalElements(std::list<int>elementList) {
         if (current == next):
             move to next element in list;
         else:
-            print out "Not ever element in the sequence is identical";
+            print out "Not every element in the sequence is identical";
             return 1;
     return elementList;
 }

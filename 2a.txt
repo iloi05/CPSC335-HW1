@@ -1,19 +1,19 @@
+// Name: Ivy Loi
+// Assignment: HW 1
+// Problem: 2a
+// Date: 3/2/26
 //Pseudocode for 2a
 #include  <iostream>
 #include <cmath>
 
 int squareRootCompute(int number) {
     int root = 0;
-    //Checking if square root is radical
-    if (root^2 != number) then:
-        print out "The number inputted is a radical";
-        return 1
-    // Checking if square root is imaginary
-    else if (number < 0) then:
+    //Checking if square root is imaginary
+    if (number < 0) then:
         print out "The number is negative, cannot compute square root because root is imaginary";
         return 1;
     else
-        root * root == number;
+        root^2 == number;
         print out "The root of (number) is (root)";
     
     return root;

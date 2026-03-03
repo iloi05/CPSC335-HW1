@@ -1,9 +1,17 @@
-def keep_positives(S):
-    if len(S) == 0:
+# Name: Ivy Loi
+# Assignment: HW 1
+# Problem: 1c
+# Date: 3/2/26
+
+# Keep only the positive numbers in a list
+# S is the list
+# x represents each element in the list
+def keep_positives(list):
+    if len(list) == 0:
         return 0
     else:
         result = []
-        for x in S:
+        for x in list:
             if x > 0:
                 result.append(x)
         return result
