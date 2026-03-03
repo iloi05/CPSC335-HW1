@@ -1,0 +1,15 @@
+// Pseudocode for 2b
+
+#include <iostream>
+#include <cmath>
+
+int evenOrOdd(number) {
+    //calculate if even
+    if (number % 2 == 0) then:
+        print out "(number) is even";
+        return 0;
+    // calculate if odd
+    else if (number % 2 == 1) then:
+        print out "(number) is odd";
+        return 0;
+}
