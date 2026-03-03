@@ -8,7 +8,7 @@ identicalElements(std::list<int>elementList) {
         int next = 0;
         if (current == next):
             move to next element in list;
-        else (current != next):
+        else:
             print out "Not ever element in the sequence is identical";
             return 1;
     return elementList;

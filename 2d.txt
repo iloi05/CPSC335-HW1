@@ -1,0 +1,12 @@
+//Pseudocode for 2D
+
+#include <iostream>
+#include <string>
+
+bool identicalString(std::string stringA, std::string B) {
+    if stringA != stringB:
+        print out "The strings don't match";
+    else:
+        print out "The strings match";
+    return 0;
+}
