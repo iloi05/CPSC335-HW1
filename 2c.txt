@@ -1,0 +1,15 @@
+//Pseudocode for 2c
+
+#include <iostream>
+
+identicalElements(std::list<int>elementList) {
+    for every element in elementList:
+        int current = 0;
+        int next = 0;
+        if (current == next):
+            move to next element in list;
+        else (current != next):
+            print out "Not ever element in the sequence is identical";
+            return 1;
+    return elementList;
+}

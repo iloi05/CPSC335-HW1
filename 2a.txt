@@ -2,7 +2,7 @@
 #include  <iostream>
 #include <cmath>
 
-int squareRootCompute(number) {
+int squareRootCompute(int number) {
     int root = 0;
     //Checking if square root is radical
     if (root^2 != number) then:

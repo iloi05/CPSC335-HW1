@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cmath>
 
-int evenOrOdd(number) {
+int evenOrOdd(int number) {
     //calculate if even
     if (number % 2 == 0) then:
         print out "(number) is even";
